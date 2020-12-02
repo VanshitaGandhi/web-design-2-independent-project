@@ -30,3 +30,54 @@ body {
 p {
   margin-top: 0;
 }
+
+.skip-links {
+  position: absolute;
+  top: -3em;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+nav ul,
+ul {
+  list-style-type: none;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  max-width: 28rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1, h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-color: #0f1f26;
+}
+
+.logo p{
+  text-align: center;
+  color: #fff;
+}
+
+.dark-btn {
+  border-radius: .3rem;
+  padding: .5em 1em .6em;
+  color: #fff;
+  background-color: #0f1f26;
+}
+
+footer {
+  background-color: #0f1f26;
+  color: #fff;
+}
