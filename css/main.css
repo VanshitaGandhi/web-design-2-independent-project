@@ -20,6 +20,7 @@ html {
 }
 
 img {
+  display: block;
   width: 100%;
 }
 
@@ -29,6 +30,7 @@ body {
 
 p {
   margin-top: 0;
+  text-align: left;
 }
 
 .skip-links {
@@ -41,6 +43,12 @@ p {
 
 .skip-links a:focus {
   top: 0;
+}
+
+.logo-256 {
+  width: 7rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav ul,
@@ -64,6 +72,11 @@ a {
   background-color: #0f1f26;
 }
 
+.banner,
+.contact {
+  text-align: center;
+}
+
 h1, h2 {
   font-family: "Raleway", sans-serif;
   margin-top: 0;
@@ -73,9 +86,11 @@ header {
   background-color: #0f1f26;
 }
 
-.logo p{
+h1 {
   text-align: center;
   color: #fff;
+  font-weight: normal;
+  font-size: 1.1rem;
 }
 
 footer {
