@@ -177,3 +177,41 @@ footer {
   grid-column: 2;
   grid-row: 1 / span 2;
 }
+
+.body-work {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 1rem;
+  padding: 1rem;
+}
+
+.project1 .infographic {
+  width: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project2 .newsletter1 {
+  width: 24rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project2 .newsletter2 {
+  width: 24rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project3 .symbol {
+  width: 24rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  background-color: #e7a139;
+  color: #0f1f26;
+}
