@@ -215,3 +215,61 @@ footer {
   background-color: #e7a139;
   color: #0f1f26;
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+    max-width: 32em;
+    margin: 0px auto;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+    max-width: 48em;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    max-width: 54em;
+  }
+
+}
+
+@media only screen and (min-width: 120em) {
+
+  html {
+    font-size: 130%;
+    max-width: 60em;
+  }
+
+}
+
+@media only screen and (min-width: 150em) {
+
+  html {
+    font-size: 130%;
+    max-width: 80em;
+  }
+
+}
