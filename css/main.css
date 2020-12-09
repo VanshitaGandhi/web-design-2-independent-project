@@ -105,8 +105,7 @@ a {
   background-color: #0f1f26;
 }
 
-.banner,
-.contact {
+.banner {
   text-align: center;
 }
 
@@ -216,15 +215,6 @@ footer {
   grid-row: 1 / span 2;
 }
 
-.body-work {
-  margin: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  column-gap: 1rem;
-  padding: 1rem;
-}
-
 .project1 .infographic {
   width: 16rem;
   margin-left: auto;
@@ -272,6 +262,10 @@ footer {
     margin: 0 0 1.4rem;
   }
 
+  .main {
+    max-width: 32em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -287,14 +281,111 @@ footer {
     margin: 0 0 1.5rem;
   }
 
+  .main {
+    max-width: 48em;
+  }
+
+
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  .main {
     max-width: 54em;
   }
+
+  .project1 {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 1rem;
+  }
+
+  .project1 h2 {
+    grid-column: 1 / span;
+    grid-row: 1;
+  }
+
+  .project1 .infographic {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .project1 p {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .project2 {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 1rem;
+  }
+
+  .project2 h2 {
+    grid-column: 1 / span;
+    grid-row: 1;
+  }
+
+  .project2 .newsletter1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .project2 .newsletter2 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .project2 p {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .project3 {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 1rem;
+  }
+
+  .project3 h2 {
+    grid-column: 1 / span;
+    grid-row: 1;
+  }
+
+  .project3 .symbol {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .project3 p {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .about-text,
+  .about-head {
+    max-width: 34rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
 }
 
@@ -302,6 +393,9 @@ footer {
 
   html {
     font-size: 130%;
+  }
+
+  .main {
     max-width: 60em;
   }
 
@@ -311,6 +405,9 @@ footer {
 
   html {
     font-size: 130%;
+  }
+
+  .main {
     max-width: 80em;
   }
 
