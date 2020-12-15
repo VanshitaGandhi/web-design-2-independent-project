@@ -15,12 +15,12 @@
     <li class="skip-links"><a href="#nav" aria-label="jump-to-navigation"></a>Jump to navigation</li>
   </ul>
 
-  <header role="banner">
+  <header role="banner" id="banner" tabindex="0">
     <div class="logo">
-      <img class="logo-256" src="www/images/logo-256.svg" alt="">
+      <img class="logo-256" src="images/logo-256.svg" role="presentation" alt="logo">
       <h1>Vanshita Gandhi Designs</h1>
     </div>
-    <nav role="navigation">
+    <nav role="navigation" tabindex="0">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="work.html">Work</a></li>
@@ -29,7 +29,7 @@
     </nav>
   </header>
 
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
     <section>
       <div class="intro">
         <h2>Ready to chat?</h2>
@@ -38,51 +38,52 @@
         <form role="search" method="POST" action="https://formspree.io/vanshitagandhi98@gmail.com">
           <fieldset>
             <legend>Contact Information</legend>
-            <div>
-              <label for="first-name">First name</label>
-              <input id="first-name" name="name" required>
-            </div>
-            <div>
-              <label for="last-name">Last name</label>
-              <input id="last-name" name="name" required>
-            </div>
-            <div>
-              <label for="email">Email Address</label>
-              <input id="email" type="email" name="name" required>
-            </div>
-            <div>
-              <label for="contact-number">Contact number <span class="italic">(optional)</span></label>
-              <input id="contact-number" type="tel" name="name">
-            </div>
+            <div class="wrapper-form">
+              <div>
+                <label for="first-name">First name</label>
+                <input class="padding" id="first-name" name="name" required>
+              </div>
+              <div>
+                <label for="last-name">Last name</label>
+                <input class="padding" id="last-name" name="name" required>
+              </div>
+              <div>
+                <label for="email">Email Address</label>
+                <input class="padding" id="email" type="email" name="name" required>
+              </div>
+              <div>
+                <label for="contact-number">Contact number <span class="italic">(optional)</span></label>
+                <input class="padding" id="contact-number" type="tel" name="name">
+              </div>
 
-          <div>
-            <label for="comments">Please let us know any comments or questions you may have. <span class="italic">(optional)</span></label>
-            <textarea class="height" id="comments" name="comment"></textarea>
-          </div>
-          <div>
-            <button type="submit">Submit</button>
-          </div>
+              <div class="comments">
+                <label class="comments-text" for="comments">Please let us know any comments or questions you may have. <span class="italic">(optional)</span></label>
+                <textarea class="height" id="comments" name="comment"></textarea>
+              </div>
+            </div>
+            <div class="submit-wrapper">
+              <button class="submit" type="submit">Submit</button>
+            </div>
           </fieldset>
-
 
         </div>
       </section>
 
     </main>
 
-    <footer class="footer" role="contentinfo">
+    <footer class="footer" role="contentinfo" id="contentinfo" tabindex="0">
       <div class="logo">
-        <img class="logo-32-footer" src="www/images/logo-32.svg" alt="">
+        <img class="logo-32-footer" src="images/logo-32.svg" alt="">
         <p>Vanshita Gandhi Designs</p>
       </div>
       <div class="footer-ul-wrapper">
-      <ul class="footer-ul">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="work.html">Work</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <p class="footer-text">© Vanshita Gandhi Designs</p>
-    </div>
+        <ul class="footer-ul">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="footer-text">© Vanshita Gandhi Designs</p>
+      </div>
     </footer>
 
 
