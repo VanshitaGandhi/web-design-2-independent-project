@@ -189,6 +189,7 @@ footer {
 .footer-text {
   grid-column: 2 / -2;
   text-align: right;
+  padding-right: 1rem;
 }
 
 .contact {
@@ -265,6 +266,15 @@ footer {
     margin: 0px auto;
   }
 
+  .footer-ul-wrapper .footer-ul,
+  nav ul {
+    max-width: 38rem;
+  }
+
+  .footer-text {
+    padding-right: 2rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -281,6 +291,15 @@ footer {
 
   .main {
     max-width: 48em;
+  }
+
+  .footer-ul-wrapper .footer-ul,
+  nav ul {
+    max-width: 60rem;
+  }
+
+  .footer-text {
+    padding-right: 3rem;
   }
 
 }
@@ -379,6 +398,14 @@ footer {
     margin-right: auto;
   }
 
+  .footer-ul-wrapper .footer-ul,
+  nav ul {
+    max-width: 90rem;
+  }
+
+  .footer-text {
+    padding-right: 4rem;
+  }
 
 }
 
@@ -392,6 +419,10 @@ footer {
     max-width: 60em;
   }
 
+  .footer-ul-wrapper .footer-ul,
+  nav ul {
+    max-width: 120rem;
+  }
 }
 
 @media only screen and (min-width: 150em) {
@@ -403,5 +434,15 @@ footer {
   .main {
     max-width: 80em;
   }
+
+  .footer-ul-wrapper .footer-ul,
+  nav ul {
+    max-width: 150rem;
+  }
+
+  .footer-text {
+    padding-right: 5rem;
+  }
+
 
 }
