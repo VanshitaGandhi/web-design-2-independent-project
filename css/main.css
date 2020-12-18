@@ -91,10 +91,18 @@ a:hover {
 
 .one {
   margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem;
+  text-align: center;
+  padding-bottom: 0;
 }
 
 .two {
   margin-bottom: 1.5rem;
+  padding: 2rem;
+  padding-top: 0;
+  font-size: 1.2rem;
 }
 
 section .banner {
